@@ -23,12 +23,12 @@ def mult(a, b):
 def div(a, b):
     if b != 0:
         return a / b
-#handling division by zero:
-    else:
+    else: #handling division by zero:
+
         print("Division by zero is not allowed")
         b = None
 
-# declaring variables:
+# declaring and assigning variables
 a = None
 b = None
 operator = None
@@ -38,8 +38,8 @@ while (True):
     a = input("Enter the first argument: ")
     operator = input("Enter the operator: ")
     b = input("Enter the second argument: ")
-  #converting values to integers
-    try:  
+    #converting values to integers
+    try:
         a = int(a)
         b = int(b)
     except ValueError:
