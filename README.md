@@ -54,7 +54,7 @@ READ first argument
 PRINT "Enter the operator: "
 READ operator
 
-# Get second argument from user
+\# Get second argument from user
 PRINT "Enter the second argument: " 
 READ second argument
 # Convert a nab b to integers
