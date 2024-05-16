@@ -47,24 +47,28 @@ END FUNCTION
 
 
 WHILE True
-# Get first argument from user
+
+\# Get first argument from user
 PRINT "Enter the first argument: " 
 READ first argument
 
-# Get operator from user
+\# Get operator from user
 PRINT "Enter the operator: "
 READ operator
 
-# Get second argument from user
+\# Get second argument from user
 PRINT "Enter the second argument: " 
 READ second argument
-# Convert a nab b to integers
+
+\# Convert a and b to integers
 	TRY:
         a = CONVERT_TO_INTEGER(a)
         b = CONVERT_TO_INTEGER(b)
    	 EXCEPT ValueError:
         PRINT "Invalid number argument..."
-    # Making the decision:
+	
+\# Making the decision:
+
     IF operator != None THEN
         IF operator == "+" THEN
             PRINT "Sum: ", add(a, b)
