@@ -1,7 +1,4 @@
 # Four function Calculator commandline tool
-# This Python calculator is a coursework for 
-# Westminter Adult Education Service Colledge
-#for Level 2 Software Development Sertificate
 
 # -------------------------------------------------------- #
 # -- CALCULATOR ------------------------------------------ #
