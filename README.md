@@ -1,14 +1,14 @@
-**Client Brief:**
+**Client Brief**
 
 Develop a Basic Calculator application that allows users to perform simple arithmetic operations such as addition, subtraction, multiplication, and division. The application should be user-friendly, prompt the user for inputs, perform the calculation, and display the result. It should also handle basic errors like division by zero and invalid inputs.
 
 **Programming Requirements**
 
-**● Intended Purpose:** 
+**_● Intended Purpose:_** 
 
 Create the application that performs addition, subtraction, multiplication and division on user's imputed data and on user requested operation. 
 
-**● Data Requirements:**
+**_● Data Requirements:_**
 
 Data has to be provided by the user: numbers to be calculated and the arithmetic operation to be performed on the data provided.
 ● Audience: Anyone who has the need to perform basic calculations and has access to a device to run Python applications (such as a computer with Python 3 installed) and a hardware peripheral with text input capability (such as keyboard)
@@ -19,7 +19,7 @@ Data has to be provided by the user: numbers to be calculated and the arithmetic
 
 **Design Documentation**
 
-*Pseudocode*
+*_Pseudocode_*
 
 BEGIN
 FUNCTION add(a, b)
@@ -43,8 +43,6 @@ FUNCTION div(a, b)
     ELSE
         PRINT "Division by zero is not allowed"
 END FUNCTION
-
-
 
 WHILE True
 \# Get first argument from user
@@ -80,10 +78,7 @@ READ second argument
         BREAK
 END
 
-Flowchart
+**Flowchart**
 
-● Lucidchart (https://www.lucidchart.com) used to build the required flowchart and convert it into image. Pleas, see file flowchart4calculator
-
- 
-
+● _Lucidchart (https://www.lucidchart.com) used to build the required flowchart and convert it into image. Pleas, see file flowchart4calculator.gpeg_
 
