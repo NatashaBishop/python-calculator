@@ -1,11 +1,15 @@
 **Client Brief:**
+
 Develop a Basic Calculator application that allows users to perform simple arithmetic operations such as addition, subtraction, multiplication, and division. The application should be user-friendly, prompt the user for inputs, perform the calculation, and display the result. It should also handle basic errors like division by zero and invalid inputs.
+
 **Programming Requirements**
 
-● Intended Purpose: 
+**● Intended Purpose:** 
+
 Create the application that performs addition, subtraction, multiplication and division on user's imputed data and on user requested operation. 
-● User Requirements:
-● Data Requirements: 
+
+**● Data Requirements:**
+
 Data has to be provided by the user: numbers to be calculated and the arithmetic operation to be performed on the data provided.
 ● Audience: Anyone who has the need to perform basic calculations and has access to a device to run Python applications (such as a computer with Python 3 installed) and a hardware peripheral with text input capability (such as keyboard)
 ● Platform: Linux/Windows/MacOS based terminal
