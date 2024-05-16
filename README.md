@@ -22,45 +22,61 @@ Data has to be provided by the user: numbers to be calculated and the arithmetic
 *_Pseudocode_*
 
 BEGIN
+
 FUNCTION add(a, b)
-	RETURN a + b
+
+RETURN a + b
+
 END FUNCTION
 
 FUNCTION sub(a, b)
-    RETURN a-b
+
+RETURN a-b
+
 END FUNCTION
 
 FUNCTION mult(a, b)
-    RETURN a*b
+
+RETURN a*b
+
 END FUNCTION
 
 FUNCTION div(a, b)
-    RETURN a/b
+
+RETURN a/b
+
 END FUNCTION
+
 FUNCTION div(a, b)
+
     IF b is not 0 THEN
         RETURN a / b
     ELSE
         PRINT "Division by zero is not allowed"
 END FUNCTION
 
-
-
 WHILE True
 
 \# Get first argument from user
+
 PRINT "Enter the first argument: " 
+
 READ first argument
 
 \# Get operator from user
+
 PRINT "Enter the operator: "
+
 READ operator
 
 \# Get second argument from user
+
 PRINT "Enter the second argument: " 
+
 READ second argument
 
 \# Convert a and b to integers
+
 	TRY:
         a = CONVERT_TO_INTEGER(a)
         b = CONVERT_TO_INTEGER(b)
