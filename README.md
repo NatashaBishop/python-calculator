@@ -23,31 +23,31 @@ Data has to be provided by the user: numbers to be calculated and the arithmetic
 
 BEGIN
 
-FUNCTION add(a, b)
+	FUNCTION add(a, b)
 
-RETURN a + b
+	RETURN a + b
 
-END FUNCTION
+	END FUNCTION
 
-FUNCTION sub(a, b)
+	FUNCTION sub(a, b)
 
-RETURN a-b
+	RETURN a-b
 
-END FUNCTION
+	END FUNCTION
 
-FUNCTION mult(a, b)
+	FUNCTION mult(a, b)
 
-RETURN a*b
+	RETURN a*b
 
-END FUNCTION
+	END FUNCTION
 
-FUNCTION div(a, b)
+	FUNCTION div(a, b)
 
-RETURN a/b
+	RETURN a/b
 
-END FUNCTION
+	END FUNCTION
 
-FUNCTION div(a, b)
+	FUNCTION div(a, b)
 
     IF b is not 0 THEN
         RETURN a / b
@@ -55,25 +55,25 @@ FUNCTION div(a, b)
         PRINT "Division by zero is not allowed"
 END FUNCTION
 
-WHILE True
+	WHILE True
 
 \# Get first argument from user
 
-PRINT "Enter the first argument: " 
+	PRINT "Enter the first argument: " 
 
-READ first argument
+	READ first argument
 
 \# Get operator from user
 
-PRINT "Enter the operator: "
+	PRINT "Enter the operator: "
 
-READ operator
+	READ operator
 
 \# Get second argument from user
 
-PRINT "Enter the second argument: " 
+	PRINT "Enter the second argument: " 
 
-READ second argument
+	READ second argument
 
 \# Convert a and b to integers
 
